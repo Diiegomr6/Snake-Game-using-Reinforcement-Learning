@@ -111,16 +111,3 @@ def load_q_table(self, filename="q_table.txt"):
     except IOError:
         self.q_table = np.zeros((self.n_states, self.n_actions))
 ```
-
----
-
-## Summary
-
-This project provides a minimal but powerful implementation of reinforcement learning applied to a game. The combination of compact state representation, a well-defined reward system, and a basic Q-learning loop makes it a strong educational tool for understanding how AI agents can learn behaviors from scratch.
-
-Use this codebase to explore and extend reinforcement learning ideas further — try changing the state representation, reward function, or integrating with deep learning models for more advanced behavior!
-
-```python
-# Run the training or testing
-python SnakeGame.py
-```
